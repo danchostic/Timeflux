@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Timeflux | Contact Us</title>
+  <link rel="stylesheet" href="Style.css" />
+</head>
+
+<body>
+  <header class="animate-fade">
+    <div class="header-inner container">
+      <h1>Timeflux</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="AboutUs.html">About Us</a>
+        <a href="Journal.html">Journal</a>
+        <a href="Contact.html" class="active">Contact Us</a>
+        <div class="dropdown">
+          <a href="#" class="dropbtn">Collection ▾</a>
+          <div class="dropdown-content">
+            <a href="menswatches.html">Men's Watches</a>
+            <a href="womenwatches.html">Women's Watches</a>
+            <a href="luxurywatches.html">Luxury Collection</a>
+            <a href="smartwatches.html">SmartWatch Collection</a>
+            <a href="rolex.html">Rolex Collection</a>
+            <a href="Designerwatches.html">Designerwatches Collection</a>
+          </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="contact-hero animate-fadeUp">
+    <div class="container">
+      <h2>We’re Here to Help</h2>
+      <p>Whether you have a question about our watches, your order, or just want to say hello—we’re here and ready to assist.</p>
+    </div>
+  </section>
+
+  <section class="contact-section animate-fade">
+    <div class="container">
+      <h3>Get in Touch</h3>
+      <form class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+      <div class="contact-info">
+        <h4>Contact Details</h4>
+        <p><strong>Email:</strong> support@timeflux.com</p>
+        <p><strong>Phone:</strong> +1 (800) 123-4567</p>
+        <p><strong>Office Hours:</strong> Monday – Friday, 9:00 AM – 6:00 PM (GMT+8)</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="response-note animate-fadeUp">
+    <div class="container">
+      <p>We typically respond within 24 hours. Thank you for reaching out!</p>
+    </div>
+  </section>
+
+  <footer class="footer animate-fade">
+    <div class="footer-links">
+      <a href="Index.html">Home</a>
+      <a href="AboutUs.html">About Us</a>
+      <a href="Journal.html">Journal</a>
+      <a href="Contact.html">Contact Us</a>
+    </div>
+
+    <div class="social-icons">
+      <a href="https://www.instagram.com" target="_blank" class="social-link">
+        <img src="images/instagram.jpg" alt="Instagram" />
+        <span>Instagram</span>
+      </a>
+      <a href="https://www.facebook.com" target="_blank" class="social-link">
+        <img src="images/facebook.jpg" alt="Facebook" />
+        <span>Facebook</span>
+      </a>
+      <a href="https://www.youtube.com" target="_blank" class="social-link">
+        <img src="images/youtube.png" alt="YouTube" />
+        <span>YouTube</span>
+      </a>
+    </div>
+
+    <div class="newsletter">
+      <p>Subscribe to our newsletter</p>
+      <form>
+        <input type="email" placeholder="Enter your email" />
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+
+    <p style="margin-top: 1rem;">&copy; 2025 Timeflux. All rights reserved.</p>
+  </footer>
+  <div id="cart-sidebar" class="cart-sidebar">
+       <div class="cart-header">
+          <h3>Your Cart</h3>
+          <button id="close-cart">&times;</button>
+       </div>
+       <div id="cart-items" class="cart-items"></div>
+         <div class="cart-total">
+         <strong>Total: $<span id="cart-total">0</span></strong>
+      </div>
+    </div>
+
+    <!-- Cart open button -->
+    <button id="open-cart" class="cart-toggle-btn">🛒</button>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
